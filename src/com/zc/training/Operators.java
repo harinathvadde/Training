@@ -6,6 +6,7 @@ public class Operators {
 		
 		//simple assignment operators
 		
+		
 		int num = 10; 	//= is the assignment operator used to assign a value to the variable
 		
 		//Arthimatic Operators
@@ -24,6 +25,7 @@ public class Operators {
 		System.out.println(mul);
 		System.out.println(div);
 		System.out.println(modulus);
+		
 		
 		//Unary Operators
 		a++;	//post increment operator

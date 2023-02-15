@@ -96,8 +96,9 @@ public class Utility {
 	 * @param input
 	 * @return true or false
 	 */
-	@SuppressWarnings("unused")
 	public static boolean isBlank(Object input) {
+		if(input==null) 
+			return true;
 		try {
 			if (input instanceof String) {
 				String stringvar = (String) input;
